@@ -1,9 +1,11 @@
-# 倒數計時
+# countDownJS 倒數計時
 ## Count Down for Google Meet
 
-![snapshot](snapshot.png)
+[互動網頁 \
+![snapshot](snapshot.png) ]( https://jsyeh.org/countdown/countDownJS)
 
-[【停課不停學、小孩在家學】Day 4: 2021/5/20(三) 倒數計時](https://www.facebook.com/jsyeh.org/posts/4342095909136532)
+## 設計理念
+FB貼文: [【停課不停學、小孩在家學】Day 4: 2021/5/20(三) 倒數計時](https://www.facebook.com/jsyeh.org/posts/4342095909136532)
 
 上課前, **你會提早到教室嗎**? 我每天上課時, 都會提到1個小時到教室準備。幸運的, 我看到了很多同學也會提早到教室準備, 這樣上課鐘響時, 就可以準時上課囉!
 
@@ -11,11 +13,14 @@
 
 但只有畫面、沒有聲音, 總覺得怪怪的。我想到可以使用 YouTube 找到輕鬆的音樂來播放, 但是在 Google Meet 裡, 又要倒數計時、又要播放電腦的音樂, 感覺有點難度。所以我就利用 <iframe></iframe> 把 YouTube影片內嵌在倒數計時的畫面中。這時就可以利用 Google Meet 分享畫面時, 選 Chrome 分頁 來播出聲音。 我真是太天才了, 想到這麼簡單的方法來解決 🙂 程式在這裡 https://github.com/jsyeh/countdown
 
-## 使用方法
-1. 把 countDownJS.zip 下載、解壓縮。 
+## 使用方法1
+1. 把 [countDownJS.zip](countDownJS.zip) 下載、解壓縮。
 2. 你可以 countDownJS 這個目錄, 用 Chrome 開啟裡面的 index.html 就好了 (Chrome設為預設 browser, 點2下 index.html 就好了)
 3. 左上角有個小小的 YouTube 方塊, 點它,就會開始播音樂
 4. 如果希望音樂停下來, 在 Chrome 裡按 F5 就恢復成還沒播放音樂的狀態
+
+## 使用方法2
+1. 同上, 但直接點選網址 https://jsyeh.org/countdown/countDownJS
 
 ## 如何修改時間
 1. 用文字編輯器(ex. Notepad++) 把 countDownJS.js 打開

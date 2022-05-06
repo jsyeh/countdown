@@ -1,11 +1,11 @@
-// countDownJS
+// countDownJS 倒數計時
 // https://github.com/jsyeh/countdown
 // 作者:葉正聖 jsyeh@mail.mcu.edu.tw 
 // 可自行修改: 目標時間、課程名稱、時間到的處理方式
 let destH =  9;
 let destM = 10;
 let destS =  0;
-let course="程式設計"; //"電腦圖學"; "文化103線上";
+let course= "課程"; //"程式設計"; //"電腦圖學"; //"文化103線上";
 let timeout=1; //時間到的處理方式 0: "歸零", 1: "再加24小時"
 
 function setup() {
