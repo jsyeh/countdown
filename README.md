@@ -1,6 +1,8 @@
 # 倒數計時
 ## Count Down for Google Meet
 
+![snapshot](snapshot.png)
+
 [【停課不停學、小孩在家學】Day 4: 2021/5/20(三) 倒數計時](https://www.facebook.com/jsyeh.org/posts/4342095909136532)
 
 上課前, **你會提早到教室嗎**? 我每天上課時, 都會提到1個小時到教室準備。幸運的, 我看到了很多同學也會提早到教室準備, 這樣上課鐘響時, 就可以準時上課囉!
