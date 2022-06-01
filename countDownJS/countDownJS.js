@@ -6,13 +6,14 @@ let destH =  9;
 let destM = 10;
 let destS =  0;
 let course= "課程"; //"程式設計"; //"電腦圖學"; //"文化103線上";
-let timeout=1; //時間到的處理方式 0: "歸零", 1: "再加24小時"
+let timeout=0; //時間到的處理方式 0: "歸零", 1: "再加24小時"
 
 function setup() {
   createCanvas(windowWidth, windowHeight-36);
   //因上方iframe放2個 56x32 YouTube按鈕,-36 避免右方垂直捲軸
   fill(255); //白色的字
   textAlign(CENTER,CENTER); //文字置中對齊
+  frameRate(2);//減少frame rate 降低效能耗損
 }
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight-36);
